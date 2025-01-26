@@ -1,0 +1,27 @@
+Homework 3
+
+1A 
+It is a finite loop.
+There would be no error.
+The terminal would print:
+Danger, Will Robinson!
+Danger, Will Robinson!
+Danger, Will Robinson!
+
+1B
+It is an infinite loop.
+There would be no error because the program would not enter the loop.
+The terminal would print:
+Lost in Space!
+
+1C
+It is an infinite loop.
+There would be no error shown in the shell, but the program would crash down. And the program would do the program infinitely and never quit. 
+The terminal may have printed Jupiter-2 infinitely, but my shell did not show anything and the program crashed.
+	
+2A
+Option 1
+
+2B
+2
+If I input Sat, the conditional statement(while day != SAT or day != SUN:) would be true and would enter into the loop.

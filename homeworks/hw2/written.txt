@@ -1,0 +1,47 @@
+1A
+print_formatted('Hello')
+
+1B
+max_num = get_max(2, 3)
+
+1C
+log_num = log_base_two(4)
+
+2
+'''
+Line 3 will never be executed because line 2 contains the key word return.
+The return statement will terminate the function call.
+So the function will exit at line 2, before reaching line 3.
+The program will return back to shell scope.
+'''
+
+3A
+19
+18
+
+3B
+19
+18
+19
+
+4
+'''
+I prefer the first function.
+Because, as a computational function, it returns a value rather than just printing the output.
+After the function call, I can still use the result in subsequent codes, as the value is stored in the memory.
+'''
+
+5A 
+def divide(x: int, y: int) -> float:
+
+5B
+'''
+Compared to the old school style of function definition:
+1. Although not so concise, but very clear:
+    write the input and output of the function directly in the header,
+    and then write the process in the body of the function.
+2. I think people who read the function will be more clear because it is clear.
+3. The person who writes the function will also have a clearer mind
+    because they know the starting and end points.
+  For example, in problem 5A, since it only talks about division, I don't know the exact type of x and y if I don't use Python annotation, which can be either int or float.
+'''

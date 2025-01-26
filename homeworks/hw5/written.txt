@@ -1,0 +1,22 @@
+1A
+"cocopuffscocopuffs"
+
+1B
+"cocopuffspuffs"
+
+1C
+False
+
+2
+return s[::-3]
+
+
+3A
+'so'
+
+3B
+'sox'
+
+3C
+'sox'
+
